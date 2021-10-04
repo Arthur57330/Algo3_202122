@@ -6,6 +6,7 @@ void recopie(Tab tab1, Tab tab2)// la fonction permet de recopier le tab1 dans l
 
 for (int i = 0; i < 10; i++)
 {
+    if (tab1[i] > 0)
     {
         tab2[i] = tab1[i];
         
